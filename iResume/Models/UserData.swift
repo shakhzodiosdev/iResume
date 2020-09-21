@@ -11,7 +11,6 @@ import Foundation
 class UserData {
     var language: String!
     var surname: String!
-    var userImg : String!
     var name : String!
     var contactNumber : String!
     var userQualifications = [UserQualifications]()
@@ -22,7 +21,6 @@ class UserData {
     init(json: [String : Any])
     {
         self.language = json["language"] as? String
-        self.userImg = json["userImg"] as? String
         self.surname = json["surname"] as? String
         self.name = json["name"] as? String
         self.contactNumber = json["contactNumber"] as? String

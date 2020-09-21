@@ -45,17 +45,6 @@ class NetworkManager
               } catch let parsingError {
                  print("Error", parsingError)
             }
-//                 if let data = data {
-//                   if let jsonString = String(data: data, encoding: .utf8) {
-//                      print(jsonString)
-//
-//                        callback( jsonString, statusCode)
-//
-//
-//
-//                   }
-//
-//
            }
                task.resume()
               

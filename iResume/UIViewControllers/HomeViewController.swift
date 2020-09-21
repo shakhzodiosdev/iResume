@@ -38,7 +38,7 @@ class HomeViewController: UIViewController {
                  }
              }
     
-    let suffix = "shakhzodiosdev/5e0f6a9a7f146c8de737081fd9b76cb8/raw/91676d897aec4affd3b89c2e37fe1b3f8826e6b8/CV"
+    let suffix = "shakhzodiosdev/3c42aeee576059ab2de6ea811769fc59/raw/ac9161f84755299e81a008db814821b00b933110/Cv"
     NetworkManager.shared.Get( suffix: suffix, callback: cb )
     }
 }
